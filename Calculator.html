@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator</title>
+  <style>
+    body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(49, 106, 221);
+  display: flex;
+}
+
+.calculator {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  width: 220px;
+}
+
+.display {
+  width: 100%;
+  height: 50px;
+  font-size: 1.5rem;
+  text-align: right;
+  margin-bottom: 15px;
+  border: none;
+  padding-right: 5px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+button.operator {
+  font-size: 20px;
+  width:52px ;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fdd76e;
+}
+
+button.Num1 {
+  font-size: 20px;
+  width:52px ;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #d4e4ff;
+  margin-top: 10px;
+}
+
+button.Num2 {
+  font-size: 20px;
+  width:52px ;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #d4e4ff;
+  margin-top: 10px;
+}
+
+button.Num3 {
+  font-size: 20px;
+  width:52px ;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #d4e4ff;
+  margin-top: 10px;
+}
+
+button.clear {
+  font-size: 20px;
+  width:52px ;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff6b6b;
+  color: white;
+  margin-top: 10px;
+
+}
+
+button.equal {
+  font-size: 20px;
+  width: 104px ;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  background-color: #2ecc71;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" class="display" value="8.3 + 1.7"/>
+    <div class="buttons">
+      <div class="symbols">
+      <button class="operator">+</button>
+      <button class="operator">-</button>
+      <button class="operator">×</button>
+      <button class="operator">÷</button>
+      </div>
+      <div>
+        <button class="Num1">7</button>
+        <button class="Num1">8</button>
+        <button class="Num1">9</button>
+        <button class="Num1">4</button>
+      </div>
+      <div>
+        <button class="Num2">5</button>
+        <button class="Num2">6</button>
+        <button class="Num2">1</button>
+        <button class="Num2">2</button>
+      </div>
+      <div>
+        <button class="Num3">3</button>
+        <button class="Num3">0</button>
+        <button class="Num3">.</button>
+        <button class="clear">C</button>
+      </div>
+      <div>
+        <button class="equal">=</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
